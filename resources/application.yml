@@ -1,0 +1,25 @@
+
+server:
+  port: 8080
+
+knife4j:
+  enable: true
+  openapi:
+    title: aichat_api_doc
+#    description: "`我是测试`,**你知道吗**
+#    # aaa"
+#    email: xiaoymin@foxmail.com
+#    concat: 八一菜刀
+#    url: https://docs.xiaominfo.com
+#    version: v4.0
+#    license: Apache 2.0
+#    license-url: https://stackoverflow.com/
+#    terms-of-service-url: https://stackoverflow.com/
+    group:
+      default:
+        group-name: ai脑筋急转弯
+        api-rule: package
+        api-rule-resources:
+          - com.zjgsu.aichat.controller
+ai:
+  apiKey: 130c73d2-fd9c-455f-83a3-9c25a99cebe5
